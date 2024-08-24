@@ -1,4 +1,4 @@
-//NOTE - FOR LOOP
+// FOR LOOP
 
 let x = ''
 for (let i = 0; i < 7; i++) {
@@ -6,7 +6,7 @@ for (let i = 0; i < 7; i++) {
     console.log(x)
 }
 
-//NOTE - FIZZBUZZ
+// FIZZBUZZ
 
 for (let i = 1; i < 101; i++) {
     if (i % 3 < 1 && i % 5 < 1) {

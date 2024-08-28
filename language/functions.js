@@ -1,6 +1,12 @@
 // Minimum
 
-function minimum(x, y) {
-    let min = Math.min
-    console.log(min(x, y))
+function min(x, y) {
+    console.log(Math.min(x, y))
 }
+
+min(0, 10);
+// → 0
+min(0, -10);
+// → -10
+
+// Recursion

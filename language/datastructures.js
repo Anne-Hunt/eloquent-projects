@@ -29,6 +29,9 @@ function reverseArray(x) {
 function reverseArrayInPlace(x) {
     let place = ''
     for (let i = 0; i <= x.length / 2; i++) {
-
+        place = x[x.length - 1 - i]
+        x[x.length - 1 - i] = x[i]
+        x[i] = place
     }
+    return x
 }

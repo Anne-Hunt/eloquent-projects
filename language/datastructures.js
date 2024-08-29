@@ -19,7 +19,11 @@ function sum(a) {
 // Reversing an Array
 
 function reverseArray(x) {
-
+    let array = []
+    for (let i = 0; i < x.length; i++) {
+        array.unshift(x[i])
+    }
+    return array
 }
 
 function reverseArrayInPlace(x) {

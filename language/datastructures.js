@@ -35,3 +35,16 @@ function reverseArrayInPlace(x) {
     }
     return x
 }
+
+function arrayToList(x, y, z) {
+    let list = { value: 0, rest: { value: 0, rest: { value: 0 } } }
+
+}
+
+function listToArray(x) {
+
+}
+
+function deepEqual(x, y) {
+
+}
